@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Free Game Download</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: sans-serif;
+      margin-top: 100px;
+    }
+
+    #popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+      justify-content: center;
+      align-items: center;
+    }
+
+    #popup img {
+      max-width: 80%;
+      border: 5px solid white;
+      box-shadow: 0 0 20px #fff;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Click to download your free game 🎮</h1>
+  <button onclick="showImage()">Download Now</button>
+
+  <div id="popup" onclick="this.style.display='none'">
+    <https://rule34storage.b-cdn.net/posts/1026/1026294/1026294.picsmall.jpg">
+  </div>
+
+  <script>
+    function showImage() {
+      document.getElementById("popup").style.display = "flex";
+    }
+  </script>
+
+</body>
+</html>
